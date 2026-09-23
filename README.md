@@ -1,16 +1,44 @@
-# React + Vite
+# 회원가입 페이지 구현
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+2026-2 [멋쟁이사자처럼] 세션 과제 — Figma 디자인 시스템을 Tailwind CSS로 옮겨 회원가입 페이지를 구현했습니다.
 
-Currently, two official plugins are available:
+## 기술 스택
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React (Vite)
+- Tailwind CSS v4
+- Figma
 
-## React Compiler
+## 실행 방법
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+npm install
+npm run dev
 
-## Expanding the ESLint configuration
+## 폴더 구조
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src
+├─ components
+│  ├─ Button.jsx      # 공통 버튼 (세션에서 만든 컴포넌트 재사용)
+│  └─ Input.jsx       # 재사용 가능한 입력창 컴포넌트
+├─ pages
+│  └─ SignupPage.jsx  # 회원가입 페이지
+├─ App.jsx
+└─ index.css          # 디자인 시스템 (색상, 폰트, 타이포그래피)
+
+## 구현 내용
+
+### 1. 디자인 시스템
+
+- **Color**: Figma에서 만든 Primary(100~900), Neutral 색상을 `@theme`에 등록
+- **Typography**: Pretendard 폰트, Figma 텍스트 스타일을 `@layer components`에 클래스로 등록
+
+### 2. Input 컴포넌트
+
+Figma Auto Layout 값(W 320, 패딩 24·12, 간격 10)을 Tailwind 클래스로 옮겼습니다.
+
+### 3. 회원가입 페이지
+
+- 이름 / 이메일 / 비밀번호 / 비밀번호 확인 입력창
+- 모든 칸을 입력해야 회원가입 버튼 활성화
+- 비밀번호와 비밀번호 확인이 다르면 알림 표시
+
+## 스크린샷
