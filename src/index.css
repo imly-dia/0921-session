@@ -1,0 +1,36 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Pretendard Variable", Pretendard, sans-serif;
+/
+  --color-primary-100: #FFD9E9;
+  --color-primary-200: #FFB4D3;
+  --color-primary-300: #FF8EBE;
+  --color-primary-400: #FF69A8;
+  --color-primary-500: #FF4392;
+  --color-primary-600: #CC3675;
+  --color-primary-700: #992858;
+  --color-primary-800: #661B3A;
+  --color-primary-900: #330D1D;
+
+  --color-neutral-100: #D3D3D3;
+  --color-neutral-200: #A7A7A7;
+  --color-neutral-300: #7A7A7A;
+  --color-neutral-400: #4E4E4E;
+  --color-neutral-500: #222222;
+  --color-neutral-600: #1B1B1B;
+  --color-neutral-700: #141414;
+  --color-neutral-800: #0E0E0E;
+  --color-neutral-900: #070707;
+}
+
+@layer components {
+  .title-lg { @apply text-[30px] md:text-5xl font-semibold leading-[1.2]; }
+  .title-md { @apply text-[26px] md:text-4xl font-semibold leading-[1.2]; }
+  .title-sm { @apply text-xl md:text-2xl font-semibold leading-[1.3]; }
+  .body-lg  { @apply text-lg font-semibold leading-[1.4]; }
+  .body-md  { @apply text-lg md:text-base font-normal leading-[1.4]; }
+  .body-sm  { @apply text-base md:text-sm font-normal leading-[1.4]; }
+  .caption  { @apply text-sm md:text-xs font-normal leading-[1.4]; }
+}
