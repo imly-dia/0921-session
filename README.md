@@ -42,3 +42,6 @@ Figma Auto Layout 값(W 320, 패딩 24·12, 간격 10)을 Tailwind 클래스로 
 - 비밀번호와 비밀번호 확인이 다르면 알림 표시
 
 ## 스크린샷
+<img width="955" height="539" alt="스크린샷 2026-09-23 204136" src="https://github.com/user-attachments/assets/9576da02-918b-48b9-96f3-55e7338069e9" />
+<img width="959" height="539" alt="스크린샷 2026-09-23 204345" src="https://github.com/user-attachments/assets/188866f5-ed78-4b7f-9155-facb6b865158" />
+<img width="959" height="539" alt="스크린샷 2026-09-23 204408" src="https://github.com/user-attachments/assets/a22c12f5-7bcf-4895-be33-4e2e82df9a69" />
