@@ -46,5 +46,4 @@ Figma Auto Layout 값(W 320, 패딩 24·12, 간격 10)을 Tailwind 클래스로 
 <img width="959" height="539" alt="스크린샷 2026-09-23 204345" src="https://github.com/user-attachments/assets/188866f5-ed78-4b7f-9155-facb6b865158" />
 <img width="959" height="539" alt="스크린샷 2026-09-23 204408" src="https://github.com/user-attachments/assets/a22c12f5-7bcf-4895-be33-4e2e82df9a69" />
 <img width="1167" height="881" alt="스크린샷 2026-09-23 오후 12 52 50" src="https://github.com/user-attachments/assets/66e8d3cc-ff1d-4199-9e13-0440a24b3a65" />
-<img width="1408" height="881" alt="스크린샷 2026-09-23 오후 8 24 56" src="https://github.com/user-attachments/assets/6227b261-13fe-4d07-9df8-123316773472" />
 
